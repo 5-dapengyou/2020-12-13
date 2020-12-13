@@ -1,0 +1,256 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,hr,ul,ol,td,input,option,textarea{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: "微软雅黑";
+}
+li{
+	list-style: none;
+}
+a{
+	
+	text-decoration: none;
+}
+img{
+	border: none;
+}
+.head{
+	margin: 0 auto;
+}
+//header
+header{
+	width: 100%;
+	height: 60px;
+	background: white;
+	.head{
+		width: 1236px;
+		height: 60px;
+		line-height: 60px;
+		img{
+			width: 70px;
+			height: 20px;
+			margin-right: 18px;
+		}
+		span{
+			font-size: 16px;
+			color: #333;
+			line-height: 60px;
+		}
+		.headr{
+			float: right;
+			span{
+				color: #32beff;
+				font-size: 14px;
+			}
+			i{
+				display: inline-block;
+				margin: auto 10px;
+				color: #eee;
+			}
+			b{
+				font-weight: normal;
+				font-size: 14px;
+				color: #666;
+			}
+		}
+	}
+}
+//section
+section{
+	width:100%;
+	height:600px;
+	background: url(../img/vipuser_denglubg3.jpg) no-repeat center center;
+	position: relative;
+	.boxxx{
+		width: 618px;
+		height: 488px;
+		position: absolute;
+		left: 840px;
+		top: 78px;
+		.box{
+			width: 420px;
+			height: 420px;
+			background: white;
+			// display: block;
+			// display: none;
+			// z-index: 5;
+			// float: right;
+			.dlhe{
+				width: 420px;
+				height: 61px;
+				border-bottom: 1px solid #e5e5e5;
+				line-height: 61px;
+				text-indent: 30px;
+			}
+			.dlhe2{
+				width: 420px;
+				height: 61px;
+				border-bottom: 1px solid #e5e5e5;
+				line-height: 61px;
+				text-indent: 30px;
+			}
+			.box_pt{
+				// width: 50px;
+				display: flex;
+				height: 38px;
+				margin: 15px 0px 15px 25px;
+				.bigBox{
+					width: 106px;
+					height: 38px;
+					display: flex;
+					margin-right: 30px;
+					span{
+						display: block;
+						line-height: 38px;
+						margin-left: 5px;
+					}
+				}
+				.bigBox2{
+					width: 132px;
+					height: 38px;
+					display: flex;
+					margin-right: 40px;
+					p{
+						margin-left: 10px;
+						color:#999 ;
+					}
+					span{
+						display: inline-block;
+						width: 90px;
+						
+						font-size: 14px;
+						color: #999;
+					}
+				}
+				.box1{
+					width: 36px;
+					height: 36px;
+					text-indent: 20px;
+					// margin-right: 50px;
+					background: url(../img/login_icon_1010.gif);
+					background-position: 0 -54px;
+					vertical-align: middle;
+				}
+				.box2{
+					width: 36px;
+					height: 40px;
+					// float: left;
+					// text-indent: 50px;s
+					background: url(../img/login_icon_1010.gif);
+					background-position: 0 -126px;
+				}
+				.box3{
+					// float: left;
+					width: 36px;
+					height: 40px;
+					// text-indent: 50px;s
+					background: url(../img/login_icon_1010.gif);
+					background-position: 0 -204px;
+				}
+			}
+			input{
+				width: 360px;
+				height: 50px;
+				margin-left: 25px;
+			}
+			#uname{
+				margin-bottom: 15px;
+			}
+			#upwd{
+				margin-bottom: 15px;
+			}
+			.wty{
+				width: 400px;
+				height: 24px;
+				margin-left:30px ;
+				margin-bottom:20px ;
+				font-size: 14px;
+				color: #666666;
+				.wty_check{
+					width: 20px;
+					height: 20px;
+					margin-left: -2px;
+					vertical-align: middle;
+				}
+				span{
+					font-size: 12px;
+					color: #8ebeff;
+				}
+			}
+			
+		}
+		// 第二个
+		.box_js{
+			width: 420px;
+			height: 440px; 
+			z-index: 1;
+			background: pink;
+			display: none;
+		}
+		.box_wx{
+			width: 420px;
+			height: 50px;
+			margin-top: 20px;
+			ul{
+				width: 268px;
+				height: 20px;
+				display: flex;
+				li {
+					width: 70px;
+					height: 40px;
+					a{
+						color: white;
+					}
+				}
+				
+			}
+		}
+	}
+	
+}
+// footer
+.footer{
+	width: 100%;
+	background: #2b2c2d;
+	.footer_box{
+		width: 1200px;
+		height: 58px;
+		background: #2b2c2d;
+		// height: 27px;
+		line-height: 58px;
+		border-top: 1px solid #999999;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		ul{
+			display: flex;
+			// height: 27px;
+			// line-height: 58px;
+			li{
+				font-size: 12px;
+				color: #666;
+				
+			}
+			span{
+				display: inline-block;
+				
+				padding: 0 10px;
+				color: #444444;
+			}
+		}
+		.footer_cen{
+				color: #999999;
+				font-size: 12px;
+				a{
+					color: #999999;
+				}
+				i{
+					font-style: normal;
+					padding: 0 10px;
+				}
+		}
+	
+	}
+} 
+

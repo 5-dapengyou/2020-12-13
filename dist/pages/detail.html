@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../../dist/css/detail.min.css">
+		<link rel="stylesheet" type="text/css" href="../../dist/css/iconfont.min.css">
+	</head>
+	<body>
+		<!-- header -->
+		<div class="header">
+			<div class="wrap">
+				<div class="haier"><a href="//www.haier.com/cn"><img src="../img/haier2019_logo.jpg"></a></div>
+			
+				<ul class="wrap_li1">
+					<li><a class="wrap_li1_zh" href="#">智慧家庭</a>
+						<div class="second secondNav">
+							<a href="#">智慧首页</a>
+							<a href="#">智慧方案</a>
+							<a href="#">智慧家电</a>
+							<a href="#">智慧家电</a>
+						</div>
+					</li>
+					<li><a class="wrap_li1_zh" href="#">个人与家庭用品</a>
+					<div class="second secondNav2">
+						<a href="#">冰箱，冷柜</a>
+						<a href="#">冰吧，酒柜</a>
+						<a href="#">洗衣机</a>
+						<a href="#">空调</a>
+						<a href="#">洗衣机</a>
+					</div></li>
+					<li><a class="wrap_li1_zh" href="#">商用解决方案</a>
+					<div class="second secondNav3">
+						<a href="#">冰箱，冷柜</a>
+						<a href="#">冰吧，酒柜</a>
+						<a href="#">洗衣机</a>
+						<a href="#">空调</a>
+					</div>
+										</li>
+					<li><a class="wrap_li1_zh" href="#">购买与服务</a>
+					<div class="second secondNav4">
+						<a href="#">冰箱，冷柜</a>
+						<a href="#">冰吧，酒柜</a>
+						<a href="#">洗衣机</a>
+						<a href="#">空调</a>
+						<a href="#">洗衣机</a>
+					</div>
+					</li>
+					<li><a class="wrap_li1_zh" href="#">关于海尔</a>
+					<div class="second secondNav5">
+						<a href="#">冰箱，冷柜</a>
+						<a href="#">洗衣机</a>
+						<a href="#">空调</a>
+					</div>
+					</li>
+				</ul>
+				
+				<div class="ipt">
+					<input type="text" name="" id="" placeholder="健康抑菌热水器">
+					<span class="iconfont icon-fangdajing"></span>
+					<span class="iconfont icon-gouwuche"></span>
+					<a href="./login.html"><span class="iconfont icon-iconset01100-copy"></span></a>
+				</div>
+			</div>
+		</div>
+		<!-- banner -->
+		<div class="banner">
+			<div class="banner_box">
+				<p class="banner_box_p">首页>冷柜>FCD_182XET</p>
+				<!-- 放大 -->
+				<div id="div1">
+					<div class="small_pic">
+						<span class="mark"></span>   <!--遮罩层-->
+						<span class="float_layer"></span>
+						<img src="../img/24.webp">
+					</div>
+					<div class="big_pic">
+						<img src="../img/26.webp">
+					</div>
+				</div>
+				<!--  -->
+				<div class="banner_bot">
+					<a href="#"><span>&lt;</span></a>
+					<img src="../img/25.webp">
+					<img src="../img/25.webp">
+					<img src="../img/25.webp">
+					<img src="../img/25.webp">
+					<img src="../img/25.webp">
+					<a href="#"><span>&gt;</span></a>
+				</div>
+				<!-- 182生冷 -->
+				<div class="banner_rig">
+					<div class="goodInfo" data-good-id="sp1">
+						<img src="../img/24.webp"><br>
+						<span>海尔冰柜FCD-182XET</span>
+						<span>1749</span>
+						<input type="button" class="addToCart" name="" id="banner_rig_zx" value="加入购物车">
+						<input type="button" name="" id="buy" value="购物车(0)">
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="../../dist/js/jquery-1.12.4.min.js"></script>
+		<script src="../../dist/js/jquery.cookie.min.js"></script>
+		<script src="../../dist/js/detail.min.js"></script>
+		<script type="text/javascript">
+			
+			// class Zoom {
+			// 	constructor() {
+			// 		//滑块
+			// 		this.float = $('.float_layer');
+			// 		//遮罩层（因为遮罩与小图一样大小，且在小图上方）
+			// 		this.mark = $('.mark');
+			// 		// console.log(this.small_img);
+			// 		//大图所在盒子
+			// 		this.big_pic = $('.big_pic');
+			// 		//大图
+			// 		this.big_img = $('.big_pic img');
+			// 		//添加事件
+			// 		this.addEvent();
+			// 		// 购物车
+			// 	}
+			// 	addEvent() {
+			// 		//给遮罩添加鼠标移入事件
+			// 		this.mark.onmouseover = function() {
+			// 			//滑块显示
+			// 			this.float.style.display = 'block';
+			// 			//大图所在盒子显示
+			// 			this.big_pic.style.display = 'block';
+			// 		}.bind(this);
+			// 		//给遮罩添加鼠标移出事件
+			// 		this.mark.onmouseout = function() {
+			// 			//滑块隐藏
+			// 			this.float.style.display = 'none';
+			// 			//大图所在盒子隐藏
+			// 			this.big_pic.style.display = 'none';
+			// 		}.bind(this);
+			// 		//给遮罩添加鼠标移动事件（实现鼠标跟随）
+			// 		this.mark.onmousemove = function(evt) {
+			// 			//获取事件对象
+			// 			let e = evt || window.event;
+			// 			//求出鼠标在滑块上的位置
+			// 			let left = e.offsetX - this.float.offsetWidth / 2;
+			// 			let top = e.offsetY - this.float.offsetHeight / 2;
+			// 			//边界
+			// 			//左边界
+			// 			if (left <= 0) {
+			// 				left = 0;
+			// 			} else if (left >= this.mark.offsetWidth - this.float.offsetWidth) { //右边界 
+			// 				left = this.mark.offsetWidth - this.float.offsetWidth;
+			// 			}
+			// 			if (top <= 0) { //上边界
+			// 				top = 0;
+			// 			} else if (top >= this.mark.offsetHeight - this.float.offsetHeight) { //下边界
+			// 				top = this.mark.offsetHeight - this.float.offsetHeight;
+			// 			}
+			// 			//设置滑块的坐标
+			// 			this.float.style.left = left + 'px';
+			// 			this.float.style.top = top + 'px';
+			
+			// 			//比例
+			// 			let p_x = left / (this.mark.offsetWidth - this.float.offsetWidth);
+			// 			let p_y = top / (this.mark.offsetHeight - this.float.offsetHeight);
+			
+			// 			//设置大图的位置
+			// 			this.big_img.style.left = -p_x * (this.big_img.offsetWidth - this.big_pic.offsetWidth) + 'px';
+			// 			this.big_img.style.top = -p_y * (this.big_img.offsetHeight - this.big_pic.offsetHeight) + 'px';
+			// 		}.bind(this);
+			// 	}
+			// 	// 
+			
+			// }
+			
+			// function $(selector) {
+			// 	return document.querySelector(selector);
+			// }
+			// new Zoom();
+			
+		</script>
+	</body>
+</html>
